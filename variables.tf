@@ -20,3 +20,8 @@ variable "validate_request_parameters" {
   type    = bool
   default = false
 }
+
+variable "create_root_resource" {
+  type    = bool
+  default = true
+}
